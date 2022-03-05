@@ -23,6 +23,7 @@ namespace Notepad
         public MainWindow()
         {
             InitializeComponent();
+            rtbPad.SetValue(Paragraph.LineHeightProperty,5.0);
         }
     }
 }

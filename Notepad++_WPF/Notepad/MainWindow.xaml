@@ -7,7 +7,28 @@
         mc:Ignorable="d"
         Title="Notepad++" Height="700" Width="1000">
     <Grid Margin="0,0,0,0">
-        <DockPanel LastChildFill="True"/>
+        <DockPanel LastChildFill="True">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="File" >
+                    <MenuItem Header="New"></MenuItem>
+                    <MenuItem Header="Open..."></MenuItem>
+                    <MenuItem Header="Save"></MenuItem>
+                    <MenuItem Header="Save"></MenuItem>
+                    <MenuItem Header="Save as..."></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Search">
+                    <MenuItem Header="Find..."></MenuItem>
+                    <MenuItem Header="Replace..."></MenuItem>
+                    <MenuItem Header="Replace All..."></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Help">
+                    <MenuItem Header="About"></MenuItem>
+                </MenuItem>
+            </Menu>
+<RichTextBox Name="rtbPad" VerticalScrollBarVisibility="Auto">
+
+</RichTextBox>
+        </DockPanel>
     </Grid>
 </Window>
  
